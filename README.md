@@ -14,6 +14,7 @@ Note - group these with headings just like in uP lab manual
 - [ ] Factorial with recurrsion
 - [ ] Factorial using lookup table
 - [ ] Bubble Sorting
+- [ ] Instructions to change modes
 
 
 ___
