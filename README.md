@@ -2,8 +2,7 @@
 
 A few basic ARMv7 programs. You can run them on an ARM emulator like [QEMU](https://www.qemu.org/) or [CPUlator](https://cpulator.01xz.net/?sys=arm). Enjoy...
 
-The Programs are named Prog #-#where # denotes the specific program index as shown by the list below. The (A) after a program name denotes an assignment.
-
+The Programs are named Prog #-#where # denotes the specific program index as shown by the list below.
 1. Data Transfer instructions
     1. Block transfer of 1 word in memory
 1. Arithmetic Operations
