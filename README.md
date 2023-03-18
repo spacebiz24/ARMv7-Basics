@@ -7,6 +7,7 @@ The Programs are named Prog #-#where # denotes the specific program index as sho
     1. Block transfer of 1 word in memory
 1. Arithmetic Operations
 	1. Add and subtract 2, 2 words of data
+	1. Multiply 2, 2 words of data
 1. Bit Manipulation Instructions
 	1. Check if the given data is even or odd
 	1. Check if the given data is positive or negative
