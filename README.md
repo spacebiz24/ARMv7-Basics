@@ -12,7 +12,7 @@ The Programs are named Prog #-#where # denotes the specific program index as sho
 	1. Check if the given data is even or odd
 	1. Check if the given data is positive or negative
 	1. Find the number of 1's and 0's in the given data
-	1. Set bit, clear bit and test bit
+	1. Clear, set, compliment and test a bit
 1. Loop Instructions
 	1. Bubble Sorting
 1. Factorial
