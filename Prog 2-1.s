@@ -1,4 +1,4 @@
-@ Add and subtract 2 words
+@ Add 2 words of data
 
 .data
 	num1: .word 0x80000555, 0xFFFFFFFF
