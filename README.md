@@ -7,19 +7,19 @@ The Programs are named Prog #-#where # denotes the specific program index as sho
     1. Block transfer of 1 word in memory
 1. Arithmetic Operations
 	1. Add 2 words of data
-	1. Multiply 2 words of data
+	1. Multiply 2 words of data*
 1. Bit Manipulation Instructions
 	1. Check if the given data is even or odd
 	1. Check if the given data is positive or negative
 	1. Find the number of 1's and 0's in the given data
 	1. Clear, set, compliment and test a bit
 1. Loop Instructions
-	1. Bubble Sorting
+	1. Bubble Sorting*
 1. Factorial
 	1. Without recurrsion
-	1. With recurrsion
+	1. With recurrsion*
 	1. Using lookup table
 1. Special Instructions
-	1. Changing processor mode
+	1. Changing processor mode*
 ___
 Made with :heart: by [spacebiz24](https://github.com/spacebiz24) and [Eloquencere](https://github.com/Eloquencere)
