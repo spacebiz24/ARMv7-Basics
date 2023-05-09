@@ -2,8 +2,8 @@
 
 .data
 	num: .word 0x05555, 0x80000555,0xf0000fff,0x1111,0x9999,0x99999999
-	pos: .space 24
-	neg: .space 24
+	pos: .space 4 * 6
+	neg: .space 4 * 6
 
 .text
 .global _start
