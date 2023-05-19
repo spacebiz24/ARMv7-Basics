@@ -8,19 +8,19 @@
 .text
 .global _start
 _start:
-	LDR R0,=num1
-	LDR R1,=num2
-	LDR R2,=res
-	LDR R3,[R0],#0x4
-	LDR R4,[R1],#0x4
-	MOV R7,#1
+	LDR R0, =num1
+	LDR R1, =num2
+	LDR R2, =res
+	LDR R3, [R0], #0x4
+	LDR R4, [R1], #0x4
+	MOV R7, #1
 	
-	ADDS R5,R3,R4
-	LDR R3,[R0]
-	LDR R4,[R1]
-	ADCS R6,R3,R4
-	STMEA R2!,{R5,R6}
-	STRCS R7,[R2]
+	ADDS R5, R3, R4
+	LDR R3, [R0]
+	LDR R4, [R1]
+	ADCS R6, R3, R4
+	STMEA R2!, {R5,R6}
+	STRCS R7, [R2]
 	
 stop:
 	BAL stop
