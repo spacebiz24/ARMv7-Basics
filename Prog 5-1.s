@@ -17,7 +17,7 @@ loop:
 	MULNE R2,R2,R0
 	BNE loop
 	
-	STR R1,[R1]
+	STR R2,[R1]
 	
 stop:
 	BAL stop
