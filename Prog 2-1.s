@@ -3,7 +3,7 @@
 .data
 	num1: .word 0x80000555, 0xFFFFFFFF
 	num2: .word 0xFFFFFFFF, 0x80000555
-	res: .space 4*2, 1
+	res: .space 4*2, 1 @ 4 -> bytes, minimum -> 1 byte
 
 .text
 .global _start
