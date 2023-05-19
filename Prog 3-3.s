@@ -16,7 +16,7 @@ LOOP:
 	CMP R0,#0x0
 	BNE LOOP
 	
-	SUB R2,R1,#0x20
+	RSB R2,R1,#0x20
 	
 stop: BAL stop
 .end
