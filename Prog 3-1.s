@@ -16,8 +16,8 @@ _start:
 loop:
 	LDR R4,[R0],#0x4
 	TST R4,#1
-	STREQ R4,[R1],#0x4
-	STRNE R4, [R2],#0x4
+	STREQ R4, [R1], #0x4
+	STRNE R4, [R2], #0x4
 	SUBS R3,R3,#1
 	BNE loop
 
