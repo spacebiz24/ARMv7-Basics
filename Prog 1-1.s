@@ -20,7 +20,7 @@ _start:
 	MOV R6, #0x8
 	
 CPY:	
-	LDMED R0!, {R1-R4}
+	LDMFD R0!, {R1-R4}
 	STMEA R5!, {R1-R4}
 	SUBS R6,R6,#1
 	BNE CPY
