@@ -22,7 +22,7 @@ _start:
 CPY:	
 	LDMFD R0!, {R1-R4}
 	STMEA R5!, {R1-R4}
-	SUBS R6,R6,#1
+	SUBS R6, R6, #1
 	BNE CPY
 
 stop: BAL stop
